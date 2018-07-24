@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_B">
+
+	<test name="Test">
+		<groups>
+			<run>
+				<exclude name="Group-1" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.aztec.Testcases.receiptPosting.NewTest" />
+			<methods>
+				<include name="DummyTest2" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite_B -->

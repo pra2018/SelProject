@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_B]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Group-1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.aztec.Testcases.receiptPosting.DealReceiptPostingTest">
+        <methods>
+          <include name="doReceiptPosting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.aztec.Testcases.receiptPosting.DealReceiptPostingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite_B] -->
